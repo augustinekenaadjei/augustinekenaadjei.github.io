@@ -1,2 +1,4 @@
 # augustinekenaadjei.github.io
-My github pages
+My github pages <br/>
+[resume](resumeKENA.pdf) <br/>
+
