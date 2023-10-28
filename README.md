@@ -2,6 +2,6 @@
 My github pages <br/>
 [Resume](resumeKENA.pdf) <br/>
 [Beamer slides](homework.pdf) <br/>
-[HTML slides](slides.Rmd) <br/>
+[HTML slides](Slides.html) <br/>
 
 
