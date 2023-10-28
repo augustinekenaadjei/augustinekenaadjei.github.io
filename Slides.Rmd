@@ -1,0 +1,41 @@
+---
+title: "Presentation"
+author: "Augustine Kena Adjei"
+format: revealjs
+---
+
+
+
+## Introduction
+-   Birthday: March 27, 1997
+-   Hometown: Cape Coast, Ghana
+-   Program: PhD Statistics
+-   Expected Graduation: May 2027
+
+## Favorite Animal
+![My favorite Animal](https://upload.wikimedia.org/wikipedia/commons/a/a5/Red_Kitten_01.jpg) 
+
+
+## Favorite Plot
+
+```{r, message=FALSE, warning=FALSE, echo=FALSE}
+
+
+library(readr)
+banknote <- read_csv("C:/Users/kweku/OneDrive/Desktop/STAT 850/hw08-graphics-augustinekenaadjei/banknote.csv")
+View(banknote)
+
+library(dplyr)
+library(ggplot2)
+
+ggplot(banknote, aes(x = Length, fill = Status)) + geom_histogram(bins = 20) + labs(title = "Histogram of Length(mm) by Status") + theme_minimal()
+
+```
+
+## CV
+
+Click below to see my resume
+
+[My Resume](https://github.com/augustinekenaadjei/augustinekenaadjei.github.io/blob/main/resumeKENA.pdf)
+
+
